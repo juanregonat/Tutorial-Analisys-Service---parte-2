@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53a00816-c2a2-45d4-8d3e-a61f8d950d19" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53a00816-c2a2-45d4-8d3e-a61f8d950d19" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Adventure Works DW</ID>
   <Name>Analysis Services Tutorial</Name>
   <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product" left="1635" top="9477" logicalid="24" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Product" left="1635" top="9477" logicalid="24" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography" left="19885" top="20577" logicalid="25" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Geography" left="19885" top="20577" logicalid="25" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer" left="20189" top="27977" logicalid="26" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Customer" left="20189" top="27977" logicalid="26" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales" left="1900" top="16877" logicalid="27" controlid="4" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="InternetSales" left="1900" top="16877" logicalid="27" controlid="4" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
             </control>
@@ -121,7 +121,7 @@
               <point x="6001" y="21027" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller" left="27100" top="20577" logicalid="31" controlid="8" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Reseller" left="27100" top="20577" logicalid="31" controlid="8" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000c611000088130000" />
             </control>
@@ -150,7 +150,7 @@
               <point x="27100" y="23077" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion" left="8401" top="5777" logicalid="33" controlid="10" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Promotion" left="8401" top="5777" logicalid="33" controlid="10" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800006612000088130000" />
             </control>
@@ -181,7 +181,7 @@
               <point x="6001" y="17727" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory" left="15511" top="14142" logicalid="35" controlid="12" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="SalesTerritory" left="15511" top="14142" logicalid="35" controlid="12" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800009a120000fe0b0000" />
             </control>
@@ -232,7 +232,7 @@
               <point x="6001" y="19377" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee" left="22673" top="13177" logicalid="38" controlid="15" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Employee" left="22673" top="13177" logicalid="38" controlid="15" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000219000088130000" />
             </control>
@@ -282,7 +282,7 @@
               <point x="23674" y="13177" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales" left="10839" top="-1623" logicalid="41" controlid="18" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="ResellerSales" left="10839" top="-1623" logicalid="41" controlid="18" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000be10000088130000" />
             </control>
@@ -393,7 +393,7 @@
               <point x="14632" y="3377" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Date" left="-5685" top="16877" logicalid="48" controlid="25" masterid="0" hint1="0" hint2="0" width="5185" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Date" left="-5685" top="16877" logicalid="48" controlid="25" masterid="0" hint1="0" hint2="0" width="5185" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800004114000088130000" />
             </control>
@@ -688,6 +688,9 @@
         <Attribute dwd:design-time-name="73b2233d-c60c-4932-8b11-db492261067f">
           <AttributeID>Email Address</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="edbf57bd-00cc-4981-99c3-d44ff79f730d">
+          <AttributeID>Commute Distance Sort</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="a0e42204-61b7-41fe-89b2-acd3ea3dd92c">
@@ -828,9 +831,11 @@
         </Attribute>
         <Attribute dwd:design-time-name="f5099435-a69b-45a6-b4c6-1fc6aa5564fe">
           <AttributeID>Birth Date</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="771d5cae-1d55-49aa-8f04-bc5024f86ce1">
           <AttributeID>Login ID</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="74d4edfc-f020-4ccc-98ea-54720f87e9f1">
           <AttributeID>Email Address</AttributeID>
@@ -858,6 +863,7 @@
         </Attribute>
         <Attribute dwd:design-time-name="4b8a50ed-eb5f-48c5-bf93-a4e0d53c8c9f">
           <AttributeID>Base Rate</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="8e5e6a54-50c0-4197-8ff6-6ee953f6ab4e">
           <AttributeID>Vacation Hours</AttributeID>
@@ -885,9 +891,11 @@
         </Attribute>
         <Attribute dwd:design-time-name="6a982f10-c3f5-4145-ad19-19904b2589b2">
           <AttributeID>Parent Employee National ID Alternate Key</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="ea5b83e6-e6a1-4e55-8023-5420c82753b0">
           <AttributeID>Employee National ID Alternate Key</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -964,6 +972,10 @@
         <Attribute dwd:design-time-name="cf05d49d-e009-459f-a4f3-d694223782b1">
           <AttributeID>Fiscal Semester</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="e28e8ddc-f127-4ef1-84e1-3f286ad373f8">
+          <AttributeID>Month Number Of Year</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="2604a0aa-e477-4085-a178-aac96c8f41b2">
@@ -1006,6 +1018,10 @@
         <Attribute dwd:design-time-name="4b41ec89-fc25-4423-9e6a-2ea30396f6cc">
           <AttributeID>Fiscal Semester</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="7e97101f-9296-4d0c-9134-0d5026eecff6">
+          <AttributeID>Month Number Of Year</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="970132f4-028e-4a75-9ac3-a631b1cb53e2">
@@ -1047,6 +1063,10 @@
         </Attribute>
         <Attribute dwd:design-time-name="eafa9c3c-4a26-48a1-b2fc-4cc92f0dfe34">
           <AttributeID>Fiscal Semester</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f1957dc-e5b4-47b0-aae5-47064c77d1fa">
+          <AttributeID>Month Number Of Year</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
